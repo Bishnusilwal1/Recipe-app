@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Login = () => {
   return (
-    <div className="flex items-center text-red-700 justify-center min-h-screen bg-white-100">
+    <div className="flex items-center justify-center min-h-screen bg-white-100">
       <div className="w-full max-w-md p-8 space-y-4 bg-white border border-gray-200 rounded-lg shadow-2xl sm:p-10">
         <h2 className="text-2xl font-bold text-center text-gray-900">
           Welcome Back!

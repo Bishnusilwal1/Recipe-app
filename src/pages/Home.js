@@ -6,12 +6,12 @@ function Home() {
     <main className="flex flex-col items-start mt-16 px-4 text-center ">
       <div className="flex max-md:flex-col-reverse w-full gap-6">
         <div className="basis-2/5 flex flex-col items-start">
-          <h1 className="text-5xl font-bold text-gray-800 text-start leading-snug">
+          <h1 className="text-5xl font-bold text-gray-800 text-start leading-snug  dark:text-white">
             It’s not just Food,
             <br />
             It’s an Experience.
           </h1>
-          <p className="text-lg text-gray-600 mt-4 text-start">
+          <p className="text-lg text-white-600 mt-4 text-start">
             Join us in celebrating the joy of good food, made with love and
             served with pride.
           </p>
@@ -19,11 +19,11 @@ function Home() {
             View Menu
           </button>
         </div>
-        <div className="md:basis-3/5 ">
+        <div className="md:basis-3/5 dark:dark-mode-bg ">
           <img
             src={`${process.env.PUBLIC_URL}/images/food.png`}
             alt="Food"
-            className=" rounded-lg w-4/6 md:ml-52 ms:flex-shrink-0"
+            className=" rounded-lg w-4/6 md:ml-52 ms:flex-shrink-0  "
           />
         </div>
       </div>
@@ -65,7 +65,7 @@ function Home() {
           className=" bg-[#858585] h-14 rounded-full hover:bg-blue-700"
         />
 
-        <div className="h-56 w-40 rounded-lg overflow-hidden shadow-lg">
+        <div className="h-56 w-40 rounded-lg overflow-hidden shadow-lg  dark:bg-gray-900">
           <div className="relative">
             <img
               src="/images/food.png"
@@ -76,15 +76,15 @@ function Home() {
           </div>
           <div className="p-4">
             <h3 className="text-lg font-bold">Pizza</h3>
-            <p className="text-gray-600">Seafood</p>
-            <p className="text-black text-2xl font-bold">$30</p>
+            <p className="text-gray-950 dark:text-white">Seafood</p>
+            <p className="text-black text-2xl font-bold dark:text-white">$30</p>
           </div>
         </div>
 
-        <div className="h-56 w-40 rounded-lg overflow-hidden shadow-lg">
+        <div className="h-56 w-40 rounded-lg overflow-hidden shadow-lg  dark:bg-gray-900">
           <div className="relative">
             <img
-              src="/images/tamato.png"
+              src="/images/food.png"
               alt="Pizza"
               className="w-80 h-28 object-cover"
             />
@@ -92,36 +92,36 @@ function Home() {
           </div>
           <div className="p-4">
             <h3 className="text-lg font-bold">Tomato Salad</h3>
-            <p className="text-gray-600">Vegetable</p>
-            <p className="text-black text-2xl font-bold">$20</p>
+            <p className="text-gray-600 dark:text-white">Vegetable</p>
+            <p className="text-black text-2xl font-bold dark:text-white">$20</p>
           </div>
         </div>
 
-        <div className="h-56 w-40 rounded-lg overflow-hidden shadow-lg">
+        <div className="h-56 w-40 rounded-lg overflow-hidden shadow-lg  dark:bg-gray-900">
           <div className="relative">
             <img
-              src="/images/tamato.png"
+              src="/images/food.png"
               alt="Pizza"
               className="w-80 h-28 object-cover"
             />
             <BsCart3 className=" absolute h-8 w-8 bg-gray-900 text-white top-2 right-2 rounded-b-full" />
           </div>
           <div className="p-4">
-            <h3 className="text-lg font-bold">Pizza</h3>
-            <p className="text-gray-600">Seafood</p>
-            <p className="text-black text-2xl font-bold">$30</p>
+            <h3 className="text-lg font-bold dark:text-white">Pizza</h3>
+            <p className="text-gray-600 dark:text-white">Seafood</p>
+            <p className="text-black text-2xl font-bold dark:text-white">$30</p>
           </div>
         </div>
 
-        <div className="h-56 w-40 mx-auto rounded-lg overflow-hidden shadow-lg">
+        <div className="h-56 w-40 mx-auto rounded-lg overflow-hidden shadow-lg dark:bg-gray-900">
           <div className="relative">
-            <img src="/images/tuna.png" alt="Pizza" className=" h-28" />
+            <img src="/images/food.png" alt="Pizza" className=" h-28" />
             <BsCart3 className=" absolute h-8 w-8 bg-gray-900 text-white top-2 right-2 rounded-b-full" />
           </div>
           <div className="p-4">
             <h3 className="text-lg font-bold">Tuna Salad</h3>
-            <p className="text-gray-600">Tuna</p>
-            <p className="text-black text-2xl font-bold">$</p>
+            <p className="text-gray-600 dark:text-white">Tuna</p>
+            <p className="text-black text-2xl font-bold dark:text-white">$60</p>
           </div>
         </div>
         <img

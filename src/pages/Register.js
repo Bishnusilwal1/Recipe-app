@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Register = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-white-100">
-      <div className="w-full max-w-md p-8 space-y-4 bg-white border border-gray-200 rounded-lg shadow-2xl sm:p-10">
+    <div className="flex items-center justify-center min-h-screen bg-white-100 dark:bg-gray-900">
+      <div className="w-full max-w-md p-8 space-y-4 bg-white border border-gray-200 rounded-lg shadow-2xl sm:p-10 dark:bg-gray-800 dark:border-gray-700">
         <h2 className="text-2xl font-bold text-center text-gray-900">Registration</h2>
         <p className="text-sm text-center text-gray-600">Let's create an account</p>
         
