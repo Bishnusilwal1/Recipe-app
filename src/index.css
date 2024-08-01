@@ -18,3 +18,15 @@ html {
 html.dark {
   @apply bg-gray-800 text-white;
 }
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+
+.no-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+

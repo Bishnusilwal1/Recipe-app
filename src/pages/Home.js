@@ -58,7 +58,7 @@ function Home() {
       {/* cart section */}
 
 
-      <div className=" flex md:gap-10 md:mt-16  md:ml-24">
+      {/* <div className=" flex md:gap-10 md:mt-16  md:ml-24">
         <img
           src={`${process.env.PUBLIC_URL}/images/FR.png`}
           alt="FR"
@@ -129,7 +129,7 @@ function Home() {
           alt="FR"
           className=" bg-orange-500 h-14 rounded-full hover:bg-blue-700"
         />
-      </div>
+      </div> */}
     </main>
   );
 }
