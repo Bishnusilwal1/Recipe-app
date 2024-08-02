@@ -76,7 +76,7 @@ const Navbar = () => {
           </div>
           <button
             onClick={toggleDarkMode}
-            className="text-orange-500 hover:text-orange-600 p-2 rounded-md focus:outline-none"
+            className="text-orange-500 hover:text-orange-600 p-2 rounded-md focus:outline-none ml-64"
           >
             {darkMode ? (
               <HiOutlineSun className="h-6 w-6" />

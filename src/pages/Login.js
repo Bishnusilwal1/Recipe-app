@@ -7,7 +7,7 @@ const Login = () => {
         <h2 className="text-2xl font-bold text-center text-gray-900 dark:text-white">
           Welcome Back!
         </h2>
-        <p className="text-sm text-center text-gray-600 dark:text-gray-400">
+        <p className="text-sm text-center text-gray-600 dark:text-white">
           Sign in by entering the information below
         </p>
 
@@ -24,7 +24,7 @@ const Login = () => {
 
         <div className="flex items-center justify-between mt-4">
           <span className="w-1/5 border-b border-gray-300 lg:w-1/4"></span>
-          <span className="text-xs text-gray-500 uppercase">
+          <span className="text-xs text-white uppercase">
             or login with email
           </span>
           <span className="w-1/5 border-b border-gray-300 lg:w-1/4"></span>
@@ -34,12 +34,12 @@ const Login = () => {
           <input
             type="email"
             placeholder="Your Email"
-            className="w-full px-4 py-2  text-sm border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500  dark:bg-gray-700 dark:text-gray-200 dark:border-gray-600"
+            className="w-full px-4 py-2 dark:text-white text-sm border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500  dark:bg-gray-700  dark:border-gray-600"
           />
           <input
             type="password"
             placeholder="Your Password"
-            className="w-full px-4 py-2 text-sm border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700"
+            className="w-full px-4 py-2 text-sm border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white"
           />
           <div className="flex items-center justify-between ">
             <a href="#" className="text-sm text-blue-500 text hover:underline dark:text-white ml-60">
@@ -48,7 +48,7 @@ const Login = () => {
           </div>
           <button
             type="submit"
-            className="w-full py-2 text-sm font-medium text-white bg-purple-600 rounded-lg hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 dark:bg-gray-600"
+            className="w-full py-2 text-sm font-medium text-white bg-purple-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500 dark:bg-purple-600"
           >
             Login
           </button>
@@ -57,7 +57,7 @@ const Login = () => {
         <Link to="/register">
           <p className="mt-4 text-sm text-center text-gray-600 dark:text-white ">
             Don't have an account?{" "}
-            <a href="#" className="text-blue-400  no-underline ">
+            <a href="#" className="text-blue-300 no-underline ">
               Sign Up
             </a>
           </p>

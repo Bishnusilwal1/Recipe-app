@@ -1,5 +1,7 @@
 import React from "react";
 import { BsCart3 } from "react-icons/bs";
+import Rating from "../components/Rating";
+import Carousel from "../components/Carousel";
 
 function Home() {
   return (
@@ -53,83 +55,11 @@ function Home() {
           />
         </div>
       </div>
-      <div className="text-yellow-500 text-xl mt-4 ">★★★★★</div>
-
-      {/* cart section */}
-
-
-      {/* <div className=" flex md:gap-10 md:mt-16  md:ml-24">
-        <img
-          src={`${process.env.PUBLIC_URL}/images/FR.png`}
-          alt="FR"
-          className=" bg-[#858585] h-14 rounded-full hover:bg-blue-700"
-        />
-
-        <div className="h-56 w-40 rounded-lg overflow-hidden shadow-lg  dark:bg-gray-900">
-          <div className="relative">
-            <img
-              src="/images/food.png"
-              alt="Pizza"
-              className="w-80 h-28 object-cover"
-            />
-            <BsCart3 className=" absolute h-8 w-8 bg-gray-900 text-white top-2 right-2 rounded-b-full  " />
-          </div>
-          <div className="p-4">
-            <h3 className="text-lg font-bold">Pizza</h3>
-            <p className="text-gray-950 dark:text-white">Seafood</p>
-            <p className="text-black text-2xl font-bold dark:text-white">$30</p>
-          </div>
+      <Rating/>
+      <div className="  flex items-center justify-center mt-8">
+          <Carousel />
         </div>
 
-        <div className="h-56 w-40 rounded-lg overflow-hidden shadow-lg  dark:bg-gray-900">
-          <div className="relative">
-            <img
-              src="/images/food.png"
-              alt="Pizza"
-              className="w-80 h-28 object-cover"
-            />
-            <BsCart3 className=" absolute h-8 w-8 bg-gray-900 text-white top-2 right-2 rounded-b-full" />
-          </div>
-          <div className="p-4">
-            <h3 className="text-lg font-bold">Tomato Salad</h3>
-            <p className="text-gray-600 dark:text-white">Vegetable</p>
-            <p className="text-black text-2xl font-bold dark:text-white">$20</p>
-          </div>
-        </div>
-
-        <div className="h-56 w-40 rounded-lg overflow-hidden shadow-lg  dark:bg-gray-900">
-          <div className="relative">
-            <img
-              src="/images/food.png"
-              alt="Pizza"
-              className="w-80 h-28 object-cover"
-            />
-            <BsCart3 className=" absolute h-8 w-8 bg-gray-900 text-white top-2 right-2 rounded-b-full" />
-          </div>
-          <div className="p-4">
-            <h3 className="text-lg font-bold dark:text-white">Pizza</h3>
-            <p className="text-gray-600 dark:text-white">Seafood</p>
-            <p className="text-black text-2xl font-bold dark:text-white">$30</p>
-          </div>
-        </div>
-
-        <div className="h-56 w-40 mx-auto rounded-lg overflow-hidden shadow-lg dark:bg-gray-900">
-          <div className="relative">
-            <img src="/images/food.png" alt="Pizza" className=" h-28" />
-            <BsCart3 className=" absolute h-8 w-8 bg-gray-900 text-white top-2 right-2 rounded-b-full" />
-          </div>
-          <div className="p-4">
-            <h3 className="text-lg font-bold">Tuna Salad</h3>
-            <p className="text-gray-600 dark:text-white">Tuna</p>
-            <p className="text-black text-2xl font-bold dark:text-white">$60</p>
-          </div>
-        </div>
-        <img
-          src="/images/FL.png"
-          alt="FR"
-          className=" bg-orange-500 h-14 rounded-full hover:bg-blue-700"
-        />
-      </div> */}
     </main>
   );
 }
