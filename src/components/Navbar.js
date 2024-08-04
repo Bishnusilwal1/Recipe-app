@@ -7,6 +7,9 @@ import {
   HiOutlineMoon,
 } from "react-icons/hi";
 
+
+
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(() => {
@@ -32,7 +35,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white dark:bg-gray-800">
+    <nav className="bg-white bg-opacity-35 dark:bg-gray-800">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between h-16">
           <div className="flex">

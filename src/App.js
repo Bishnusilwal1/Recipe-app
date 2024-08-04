@@ -16,7 +16,7 @@ import Contact from "./pages/Contact";
 const App = () => {
   return (
     <Router>
-      <div className="max-w-7xl mx-auto">
+      <div className=" mx-auto overflow-hidden">
         <Navbar />
 
         <Routes>
@@ -27,9 +27,7 @@ const App = () => {
           <Route path="/recipes" element={<Recipes />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-
         </Routes>
-        
       </div>
     </Router>
   );
