@@ -66,34 +66,44 @@ function Home() {
         </div>
         <Rating />
         {/* <div className="flex items-center justify-center mt-8"> */}
-          <Carousel />
+        <Carousel />
         {/* </div> */}
         <About />
-      
+
         <div className=" container mt-32 dark:border-red-700 ">
-        
           <div className="text-center ">
             <h2 className="text-2xl font-bold ">Amenities</h2>
 
             <div className="flex justify-center space-x-40 mt-20">
               <div className="text-center ">
-                <div className=" border-green-600">
-                <FaMotorcycle className="text-9xl text-orange-500  " />
+             
+                  <div className="bg-slate-200 w-44 h-52 flex justify-center items-center rounded-3xl dark:bg-gray-600 dark:border-[4px] dark:border-red-500 border-[4px] border-gray-500" >
+                    <FaMotorcycle className="text-9xl text-orange-500  " />
+                  </div>
+           
+
+                <p className="font-bold mt-4">Home Delivery</p>
+              </div>
+              <div className="text-center ">
+                <div className="bg-slate-200 w-44 h-52 flex justify-center items-center rounded-3xl dark:bg-gray-600 dark:border-[4px] dark:border-red-500 border-[4px] border-gray-500">
+                  <FaUtensils className="text-9xl text-orange-500 " />
                 </div>
-                
-                <p>Home Delivery</p>
+                <p className="font-bold mt-4">Take Away</p>
+              </div>
+
+              <div className="text-center">
+                <div className="bg-slate-200 w-44 h-52 flex justify-center items-center rounded-3xl dark:bg-gray-600 dark:border-[4px] dark:border-red-500 border-[4px] border-gray-500">
+                  <FaCreditCard className="text-9xl text-orange-500 " />
+                </div>
+
+                <p className="font-bold mt-4">Payment Modes</p>
               </div>
               <div className="text-center">
-                <FaUtensils className="text-9xl text-orange-500 " />
-                <p>Take Away</p>
-              </div>
-              <div className="text-center">
-                <FaCreditCard className="text-9xl text-orange-500 " />
-                <p>Payment Modes</p>
-              </div>
-              <div className="text-center">
-                <FaGlassCheers className="text-9xl text-orange-500 " />
-                <p>Party Orders</p>
+                <div className="bg-slate-200 w-44 h-52 flex justify-center items-center rounded-3xl dark:bg-gray-600 dark:border-[4px] dark:border-red-500 border-[4px] border-gray-500">
+                  <FaGlassCheers className="text-9xl text-orange-500 " />
+                </div>
+
+                <p className="font-bold mt-4">Party Orders</p>
               </div>
             </div>
           </div>
@@ -144,7 +154,7 @@ function Home() {
             />
           </div>
         </div>
-        <Footer/>
+        <Footer />
       </main>
     </div>
   );

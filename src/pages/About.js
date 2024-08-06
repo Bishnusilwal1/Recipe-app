@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className=" items-center justify-center">
       
-      <div className="c">
+      <div className=" flex flex-col lg:flex-row lg:justify-between items-center p-4 lg:p-8 max-w-7xl mx-auto dark:bg-gray-700">
         <div className="lg:w-1/2">
           <img src="images/food.png" alt="About Us" className="rounded-lg shadow-lg w-full object-cover h-96" />
         </div>
