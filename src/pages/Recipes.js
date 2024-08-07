@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Footer from '../components/Footer';
 const Recipes = () => {
   return (
     <div className='mt-9'>
@@ -34,6 +34,7 @@ const Recipes = () => {
       </div>
       
     </div>
+    <Footer />
     </div>
   );
 };
