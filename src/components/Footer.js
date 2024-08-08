@@ -58,7 +58,7 @@ const Footer = () => {
             href="#"
             className="text-gray-700 hover:text-white dark:text-white"
           >
-            © 2024 Foody
+            ©2024 Foody
           </a>
           <a
             href="#"

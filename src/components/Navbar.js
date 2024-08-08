@@ -7,9 +7,6 @@ import {
   HiOutlineMoon,
 } from "react-icons/hi";
 
-
-
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(() => {
@@ -167,7 +164,7 @@ const Navbar = () => {
               onClick={toggleDarkMode}
               className="block w-full text-gray-900 dark:text-white hover:text-orange-500 px-3 py-2 rounded-md text-base font-medium"
             >
-              {darkMode ? "Light Mode" : "Dark Mode"}
+              {/* {darkMode ? "Light Mode" : "Dark Mode"} */}
             </button>
           </div>
         </div>
