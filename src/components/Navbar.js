@@ -50,9 +50,9 @@ const Navbar = () => {
               </Link>
               <Link
                 className="text-gray-900 dark:text-white hover:text-orange-500 px-3 py-2 text-sm font-medium"
-                to="/menu"
+                to="/dashboard"
               >
-                Menu
+                Dashboard
               </Link>
               <Link
                 className="text-gray-900 dark:text-white hover:text-orange-500 px-3 py-2 text-sm font-medium"
@@ -126,9 +126,9 @@ const Navbar = () => {
             </Link>
             <Link
               className="block text-gray-900 dark:text-white hover:text-orange-500 px-3 py-2 rounded-md text-base font-medium"
-              to="/menu"
+              to="/dashboard"
             >
-              Menu
+              Dashboard
             </Link>
             <Link
               className="block text-gray-900 dark:text-white hover:text-orange-500 px-3 py-2 rounded-md text-base font-medium"
